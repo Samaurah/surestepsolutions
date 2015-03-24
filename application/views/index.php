@@ -30,33 +30,33 @@
                 </div>
 				<div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html"><i class="fa fa-home" style="margin-left:20px"></i>       Home</a></li>
-                        <li><a href="#features" data-toggle="dropdown"><i class="fa fa-cogs"></i>       Services<span style="margin-left:10px" class="fa fa-caret-down"></span></a>
+                        <li class="active"><a href="<?php echo base_url();?>index.html"><i class="fa fa-home" style="margin-left:20px"></i>       Home</a></li>
+                        <li><a href="<?php echo base_url();?>#features" data-toggle="dropdown"><i class="fa fa-cogs"></i>       Services<span style="margin-left:10px" class="fa fa-caret-down"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="support.html">Support</a></li>
-    							<li><a href="Implementation.html">Implementation</a></li>
-    							<li><a href="Consultation.html">Consultation</a></li>								
-								<li><a href="Products.html">Training</a></li>
+								<li><a href="<?php echo base_url();?>support.html">Support</a></li>
+    							<li><a href="<?php echo base_url();?>Implementation.html">Implementation</a></li>
+    							<li><a href="<?php echo base_url();?>Consultation.html">Consultation</a></li>								
+								<li><a href="<?php echo base_url();?>Products.html">Training</a></li>
 							</ul>
 						</li>
-						 <li class="dropdown"><a href="#features" data-toggle="dropdown"><i class="fa fa-wrench"></i>       Solutions<span style="margin-left:10px" class="fa fa-caret-down"></span></a> 
+						 <li class="dropdown"><a href="<?php echo base_url();?>#features" data-toggle="dropdown"><i class="fa fa-wrench"></i>       Solutions<span style="margin-left:10px" class="fa fa-caret-down"></span></a> 
 							<ul class="dropdown-menu">									
-											<li><a href="Products.html">Products</a></li>
-											<li><a href="Products.html">Enterprise Portals</a></li>											
-											<li><a href="Products.html">ERP Management Systems</a></li>
-											<li><a href="Products.html">Sure Core Banking Solutions</a></li>
-											<li><a href="Products.html">Mobile Solutions (S-Mobile Solutions)</a></li>
+											<li><a href="<?php echo base_url();?>Products.html">Products</a></li>
+											<li><a href="<?php echo base_url();?>Products.html">Enterprise Portals</a></li>											
+											<li><a href="<?php echo base_url();?>Products.html">ERP Management Systems</a></li>
+											<li><a href="<?php echo base_url();?>Products.html">Sure Core Banking Solutions</a></li>
+											<li><a href="<?php echo base_url();?>Products.html">Mobile Solutions (S-Mobile Solutions)</a></li>
 							</ul>
 						</li>                        
-                        <li><a href="#portfolio"><i class="fa fa-comments"></i>       FAQs</a></li>
-                        <li><a href="#meet-team"><i class="fa fa-globe"></i>       About Us</a></li>
-                        <li><a href="contacts.html"><i class="fa fa-phone"></i>       Contact Us</a></li>			
-                        <li ><a href="#blog"><i class="fa fa-users"></i>       Team</a></li> 
-                        <li><a href="#features" data-toggle="dropdown"><i class="fa fa-database"></i>       Microsoft Dynamics<span style="margin-left:10px" class="fa fa-caret-down"></span></a>
+                        <li><a href="<?php echo base_url();?>#portfolio"><i class="fa fa-comments"></i>       FAQs</a></li>
+                        <li><a href="<?php echo base_url();?>#meet-team"><i class="fa fa-globe"></i>       About Us</a></li>
+                        <li><a href="<?php echo base_url();?>contacts.html"><i class="fa fa-phone"></i>       Contact Us</a></li>			
+                        <li ><a href="<?php echo base_url();?>#blog"><i class="fa fa-users"></i>       Team</a></li> 
+                        <li><a href="<?php echo base_url();?>#features" data-toggle="dropdown"><i class="fa fa-database"></i>       Microsoft Dynamics<span style="margin-left:10px" class="fa fa-caret-down"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="#">Microsoft Dynamics NAV</a></li>
-								<li><a href="#">Microsoft Dynamics CRM</a></li>
-    							<li><a href="#">Microsoft Dynamics AX</a></li>
+								<li><a href="<?php echo base_url();?>#">Microsoft Dynamics NAV</a></li>
+								<li><a href="<?php echo base_url();?>#">Microsoft Dynamics CRM</a></li>
+    							<li><a href="<?php echo base_url();?>#">Microsoft Dynamics AX</a></li>
     						</ul>
 						</li> 
 						                     

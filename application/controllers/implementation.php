@@ -1,6 +1,5 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-
-class Index extends CI_Controller {
+<?php
+class Implementation extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -19,9 +18,9 @@ class Index extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('index');
+		$this->load->view('implementation');
 	}
+	
 }
-
 /* End of file welcome.php */
 /* Location: ./application/controllers/welcome.php */

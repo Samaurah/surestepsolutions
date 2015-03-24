@@ -32,33 +32,33 @@
                 </div>
 				<div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html"><i class="fa fa-home" style="margin-left:20px"></i>       Home</a></li>
+                        <li class="active"><a href="<?php echo base_url();?>index.html"><i class="fa fa-home" style="margin-left:20px"></i>       Home</a></li>
                         <li><a href="#features" data-toggle="dropdown"><i class="fa fa-cogs"></i>       Services<span style="margin-left:10px" class="fa fa-caret-down"></span></a>
 							<ul class="dropdown-menu">
 								<li><a href="<?php echo base_url();?>support.php">Support</a></li>
-    							<li><a href="Implementation.html">Implementation</a></li>
-    							<li><a href="Consultation.html">Consultation</a></li>								
-								<li><a href="Products.html">Training</a></li>
+    							<li><a href="<?php echo base_url();?>Implementation.html">Implementation</a></li>
+    							<li><a href="<?php echo base_url();?>Consultation.html">Consultation</a></li>								
+								<li><a href="<?php echo base_url();?>Products.html">Training</a></li>
 							</ul>
 						</li>
 						 <li class="dropdown"><a href="#features" data-toggle="dropdown"><i class="fa fa-wrench"></i>       Solutions<span style="margin-left:10px" class="fa fa-caret-down"></span></a> 
 							<ul class="dropdown-menu">									
-											<li><a href="Products.html">Products</a></li>
-											<li><a href="Products.html">Enterprise Portals</a></li>											
-											<li><a href="Products.html">ERP Management Systems</a></li>
-											<li><a href="Products.html">Sure Core Banking Solutions</a></li>
-											<li><a href="Products.html">Mobile Solutions (S-Mobile Solutions)</a></li>
+											<li><a href="<?php echo base_url();?>Products.html">Products</a></li>
+											<li><a href="<?php echo base_url();?>Products.html">Enterprise Portals</a></li>											
+											<li><a href="<?php echo base_url();?>Products.html">ERP Management Systems</a></li>
+											<li><a href="<?php echo base_url();?>Products.html">Sure Core Banking Solutions</a></li>
+											<li><a href="<?php echo base_url();?>Products.html">Mobile Solutions (S-Mobile Solutions)</a></li>
 							</ul>
 						</li>                        
-                        <li><a href="#portfolio"><i class="fa fa-comments"></i>       FAQs</a></li>
-                        <li><a href="#meet-team"><i class="fa fa-globe"></i>       About Us</a></li>
-                        <li><a href="contacts.html"><i class="fa fa-phone"></i>       Contact Us</a></li>			
-                        <li ><a href="#blog"><i class="fa fa-users"></i>       Team</a></li> 
-                        <li><a href="#features" data-toggle="dropdown"><i class="fa fa-database"></i>       Microsoft Dynamics<span style="margin-left:10px" class="fa fa-caret-down"></span></a>
+                        <li><a href="<?php echo base_url();?>#portfolio"><i class="fa fa-comments"></i>       FAQs</a></li>
+                        <li><a href="<?php echo base_url();?>#meet-team"><i class="fa fa-globe"></i>       About Us</a></li>
+                        <li><a href="<?php echo base_url();?>contacts.html"><i class="fa fa-phone"></i>       Contact Us</a></li>			
+                        <li ><a href="<?php echo base_url();?>#blog"><i class="fa fa-users"></i>       Team</a></li> 
+                        <li><a href="<?php echo base_url();?>#features" data-toggle="dropdown"><i class="fa fa-database"></i>       Microsoft Dynamics<span style="margin-left:10px" class="fa fa-caret-down"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="#">Microsoft Dynamics NAV</a></li>
-								<li><a href="#">Microsoft Dynamics CRM</a></li>
-    							<li><a href="#">Microsoft Dynamics AX</a></li>
+								<li><a href="<?php echo base_url();?>#">Microsoft Dynamics NAV</a></li>
+								<li><a href="<?php echo base_url();?>#">Microsoft Dynamics CRM</a></li>
+    							<li><a href="<?php echo base_url();?>#">Microsoft Dynamics AX</a></li>
     						</ul>
 						</li> 
 						                     
@@ -214,7 +214,9 @@
 	<div class="row">
 		<div class="col-md-6">
 			<h3>What is Microsoft Dynamics?</h3>
-			<p>Imagine a suite of easy-to-learn and easy-to-use business solutions tailored to your market, designed for your business size, and dedicated to growing your business through happy customers. Microsoft Dynamics offers a full range of software focused on delivering business insights that matter to both you and your customers. From enterprise resource planning (ERP) to business intelligence and reporting, the Surestep team has a business solution that’s just right for you.</p>				
+			<p>Imagine a suite of easy-to-learn and easy-to-use business solutions tailored to your market, designed for your business size, and dedicated to growing your business through happy customers. Microsoft Dynamics offers a full range of software focused on delivering business insights that matter to both you and your customers. From enterprise resource planning (ERP) to business intelligence and reporting, the Surestep team has a business solution that’s just right for you.</p> 
+			<p>Successful organizations need the right enterprise resource planning (ERP) and customer relationship management (CRM) software to help their people drive key business processes, make smarter and faster decisions, and ensure they make the most of their assets and resources. Microsoft provides these capabilities to organizations as small as a few employees starting a new venture to organizations spread across the world.</p>
+			<p>With Microsoft Dynamics ERP and CRM, you can accomplish mission-critical tasks across your organization. Reduce the cost of doing business and improve customer service by connecting and streamlining your entire supply chain; help simplify compliance and planning by making comprehensive, current financial reporting available to all employees; and look deeper into key performance factors to pinpoint efficiencies, identify potential issues, and take swift action</p>				
 			<p><a href="#"><img src="<?php echo base_url();?>Images/FindAnswers.png"></p></a>			
 		</div>
 		<div style="padding-top:10px" class="col-md-6">		
@@ -239,11 +241,9 @@
 				<h4>Email</h4>
                 <input type="text" name="email" class="form-control" value="" placeholder="Email">
 			</div>
-			<div class="form-group">
-				
-                    <h4>Message</h4>
-
-                       <textarea name="message" class="form-control" rows="5" placeholder="Comment Here"></textarea>     
+			<div class="form-group">				
+                <h4>Message</h4>
+                <textarea name="message" class="form-control" rows="5" placeholder="Comment Here"></textarea>     
 			</div>
 			<button type="submit" class="btn btn-primary">Submit</button>
 			</form>
