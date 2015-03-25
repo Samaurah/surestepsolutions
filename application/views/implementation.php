@@ -104,7 +104,7 @@
                     			<div class="media service-box wow fadeInRight">
 									<div class="pull-left">
 										<i class="fa fa-cubes"></i>
-									</div>
+									</div>    
 									<div class="media-body">
 										<h4 class="media-heading">UI design</h4>
 										<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
