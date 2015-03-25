@@ -7,11 +7,11 @@
     <meta name="author" content="">
     <title>Surestep Systems &amp; Solutions</title>
 	
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">  
-    <link href="css/main.css" rel="stylesheet"> 
-	<link href="css/half-slider.css" rel="stylesheet">        
-    <link rel="shortcut icon" href="Images/TitleIconLogo.png">
+    <link href="<?php echo base_url();?>css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>css/font-awesome.min.css" rel="stylesheet">  
+    <link href="<?php echo base_url();?>css/main.css" rel="stylesheet"> 
+	<link href="<?php echo base_url();?>css/half-slider.css" rel="stylesheet">        
+    <link rel="shortcut icon" href="<?php echo base_url();?>Images/TitleIconLogo.png">
 	
 </head>
 
@@ -27,14 +27,14 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="Images/NavBar Logo.png" alt="logo" height="50"></a>
+                    <a class="navbar-brand" href="<?php echo base_url();?>index.html"><img src="<?php echo base_url();?>Images/NavBar Logo.png" alt="logo" height="50"></a>
                 </div>
 				<div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.html"><i class="fa fa-home" style="margin-left:20px"></i>       Home</a></li>
                         <li><a href="#features" data-toggle="dropdown"><i class="fa fa-cogs"></i>       Services<span style="margin-left:10px" class="fa fa-caret-down"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="support.html">Support</a></li>
+								<li><a href="<?php echo base_url();?>support.php">Support</a></li>
     							<li><a href="Implementation.html">Implementation</a></li>
     							<li><a href="Consultation.html">Consultation</a></li>								
 								<li><a href="Products.html">Training</a></li>
@@ -76,13 +76,13 @@
 		</div>
 		<div class="col-md-3">
 			<p><h5>NAV</h5></p>
-			<p><img src="Images/DynamicsConsult.png"></p>
+			<p><img src="<?php echo base_url();?>Images/DynamicsConsult.png"></p>
 			<p style="font-size:11px">Microsoft Dynamics NAV</p>
 			<p><h5>AX</h5></p>
-			<p><img src="Images/DynamicsConsult.png"></p>
+			<p><img src="<?php echo base_url();?>Images/DynamicsConsult.png"></p>
 			<p style="font-size:11px">Microsoft Dynamics AX</p>
 			<p><h5>CRM</h5></p>
-			<p><img src="Images/DynamicsConsult.png"></p>
+			<p><img src="<?php echo base_url();?>Images/DynamicsConsult.png"></p>
 			<p style="font-size:11px">Microsoft Dynamics CRM</p>
 		</div>
 		<div class="col-md-3">
@@ -156,8 +156,8 @@
  </div>
 
 
- 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> 
-	<script src="js/bootstrap.min.js"></script>
-    <script src="js/typed.js"></script>    
+ 	<script src="<?php echo base_url();?>http://code.jquery.com/jquery-1.11.0.min.js"></script> 
+	<script src="<?php echo base_url();?>js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url();?>js/typed.js"></script>    
 </body>
 </html>

@@ -7,11 +7,11 @@
     <meta name="author" content="">
     <title>Surestep Systems &amp; Solutions</title>
 	
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">  
-    <link href="css/main.css" rel="stylesheet"> 
-	<link href="css/half-slider.css" rel="stylesheet">        
-    <link rel="shortcut icon" href="Images/TitleIconLogo.png">
+    <link href="<?php echo base_url();?>css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>css/font-awesome.min.css" rel="stylesheet">  
+    <link href="<?php echo base_url();?>css/main.css" rel="stylesheet"> 
+	<link href="<?php echo base_url();?>css/half-slider.css" rel="stylesheet">        
+    <link rel="shortcut icon" href="<?php echo base_url();?>Images/TitleIconLogo.png">
 
 
 
@@ -36,26 +36,26 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="Images/NavBar Logo.png" alt="logo" height="50"></a>
+                    <a class="navbar-brand" href="index.html"><img src="<?php echo base_url();?>Images/NavBar Logo.png" alt="logo" height="50"></a>
                 </div>
 				<div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html"><i class="fa fa-home" style="margin-left:20px"></i>       Home</a></li>
-                        <li><a href="#features" data-toggle="dropdown"><i class="fa fa-cogs"></i>       Services<span style="margin-left:10px" class="fa fa-caret-down"></span></a>
+                        <li><a href="index.html"><i class="fa fa-home" style="margin-left:20px"></i>       Home</a></li>
+                        <li class="active"><a href="#features" data-toggle="dropdown"><i class="fa fa-cogs"></i>       Services<span style="margin-left:10px" class="fa fa-caret-down"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="support.html">Support</a></li>
-    							<li><a href="Implementation.html">Implementation</a></li>
-    							<li><a href="Consultation.html">Consultation</a></li>								
-								<li><a href="Products.html">Training</a></li>
+								<li><a href="<?php echo base_url();?>support.html">Support</a></li>
+    							<li><a href="<?php echo base_url();?>Implementation.html">Implementation</a></li>
+    							<li><a href="<?php echo base_url();?>Consultation.html">Consultation</a></li>								
+								<li><a href="<?php echo base_url();?>Products.html">Training</a></li>
 							</ul>
 						</li>
 						 <li class="dropdown"><a href="#features" data-toggle="dropdown"><i class="fa fa-wrench"></i>       Solutions<span style="margin-left:10px" class="fa fa-caret-down"></span></a> 
 							<ul class="dropdown-menu">									
-											<li><a href="Products.html">Products</a></li>
-											<li><a href="Products.html">Enterprise Portals</a></li>											
-											<li><a href="Products.html">ERP Management Systems</a></li>
-											<li><a href="Products.html">Sure Core Banking Solutions</a></li>
-											<li><a href="Products.html">Mobile Solutions (S-Mobile Solutions)</a></li>
+											<li><a href="<?php echo base_url();?>Products.html">Products</a></li>
+											<li><a href="<?php echo base_url();?>Products.html">Enterprise Portals</a></li>											
+											<li><a href="<?php echo base_url();?>Products.html">ERP Management Systems</a></li>
+											<li><a href="<?php echo base_url();?>Products.html">Sure Core Banking Solutions</a></li>
+											<li><a href="<?php echo base_url();?>Products.html">Mobile Solutions (S-Mobile Solutions)</a></li>
 							</ul>
 						</li>                        
                         <li><a href="#portfolio"><i class="fa fa-comments"></i>       FAQs</a></li>
@@ -83,15 +83,59 @@
 				<div id="doc-wrap" class="col-md-7">
 					<section class="doc-section">
 						<h1 id="implementation">Implementation</h1>
-						<div>
-							<p>Our services are designed to keep your system running at its peak. Surestep’s staff of certified and experienced professionals has the experience and skill level needed to help you resolve your business challenges before they impact your business. Partner with Surestep System to implement your Microsoft Dynamics solution and benefit from highly qualified consultants with in-depth Microsoft Dynamics experience and industry knowledge. Our skilled Microsoft Dynamics implementation consultants focus on operational excellence to help you streamline processes, eliminate inefficiencies, increase productivity and improve your decision-making. More than just an implementation from programme management and business process improvement, to change management, our clients leverage our business consulting expertise to capitalise on their entire value chain.</p>
+						<div class="row">
+							<div class="col-md-6">
+								<p>Our services are designed to keep your system running at its peak. Surestep’s staff of certified and experienced professionals has the experience and skill level needed to help you resolve your business challenges before they impact your business. Partner with Surestep System to implement your Microsoft Dynamics solution and benefit from highly qualified consultants with in-depth Microsoft Dynamics experience and industry knowledge. Our skilled Microsoft Dynamics implementation consultants focus on operational excellence to help you streamline processes, eliminate inefficiencies, increase productivity and improve your decision-making. More than just an implementation from programme management and business process improvement, to change management, our clients leverage our business consulting expertise to capitalise on their entire value chain.</p>								
+								<img src="<?php echo base_url();?>Images/Untitled-1.png">							
+							</div>
+							<div class="col-md-5">
+								<div class="media service-box wow fadeInRight">
+									<div class="pull-left">
+										<i class="fa fa-line-chart"></i>
+									</div>
+									<div class="media-body">
+										<h4 class="media-heading">UX design</h4>
+										<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
+									</div>
+                    			</div>
+
+                    			<div class="media service-box wow fadeInRight">
+									<div class="pull-left">
+										<i class="fa fa-cubes"></i>
+									</div>
+									<div class="media-body">
+										<h4 class="media-heading">UI design</h4>
+										<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
+									</div>
+                   				 </div>
+
+                   				 <div class="media service-box wow fadeInRight">
+									<div class="pull-left">
+										<i class="fa fa-pie-chart"></i>
+									</div>
+									<div class="media-body">
+										<h4 class="media-heading">SEO Services</h4>
+										<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
+									</div>
+                    			</div>
+
+                    			<div class="media service-box wow fadeInRight">
+									<div class="pull-left">
+										<i class="fa fa-pie-chart"></i>
+									</div>
+									<div class="media-body">
+										<h4 class="media-heading">SEO Services</h4>
+										<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
+									</div>
+                   				</div>
+							</div>
 						</div>
 					</section>
 
 					<section class="doc-section">
 						<h2 id="started">Implementation Methodology</h2>
 						<p>The Microsoft Dynamics Sure Step Implementation methodology describes consulting and process best practices for partners working with Microsoft Dynamics NAV.</p>
-						<p><img id="method" src="Images/methodology.png"></p>
+						<p><img id="method" src="<?php echo base_url();?>Images/methodology.png"></p>
 						<p>The smart guide to the successful delivery of Microsoft Dynamics Business Solutions</p>
 						<p style="margin-left:15px"><i class="fa fa-check-circle"></i>      Learn how to effectively use Microsoft Dynamics to implement the right Dynamics business solution with quality, on-time and on-budget results.
 						</p>
@@ -138,7 +182,7 @@
 							<a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
 						</li>
 					</ul>
-					<p><img src="Images/infographics.png"></p>
+					<p><img src="<?php echo base_url();?>Images/infographics.png"></p>
 				</div>
 	      </div>
 		</div>
@@ -241,7 +285,7 @@
 </div>
 
 
- 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> 
-	<script src="js/bootstrap.min.js"></script>
+ 	<script src="<?php echo base_url();?>http://code.jquery.com/jquery-1.11.0.min.js"></script> 
+	<script src="<?php echo base_url();?>js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -7,11 +7,11 @@
     <meta name="author" content="">
     <title>Surestep Systems &amp; Solutions</title>
 	
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">  
-    <link href="css/main.css" rel="stylesheet"> 
-	<link href="css/half-slider.css" rel="stylesheet">        
-    <link rel="shortcut icon" href="Images/TitleIconLogo.png">
+    <link href="<?php echo base_url();?>css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>css/font-awesome.min.css" rel="stylesheet">  
+    <link href="<?php echo base_url();?>css/main.css" rel="stylesheet"> 
+	<link href="<?php echo base_url();?>css/half-slider.css" rel="stylesheet">        
+    <link rel="shortcut icon" href="<?php echo base_url();?>Images/TitleIconLogo.png">
 	
 </head>
 
@@ -27,11 +27,11 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="Images/NavBar Logo.png" alt="logo" height="50"></a>
+                    <a class="navbar-brand" href="<?php echo base_url();?>"><img src="<?php echo base_url();?>Images/NavBar Logo.png" alt="logo" height="50"></a>
                 </div>
 				<div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html"><i class="fa fa-home" style="margin-left:20px"></i>       Home</a></li>
+                        <li class="active"><a href="<?php echo base_url();?>index.html"><i class="fa fa-home" style="margin-left:20px"></i>       Home</a></li>
                         <li><a href="#features" data-toggle="dropdown"><i class="fa fa-cogs"></i>       Services<span style="margin-left:10px" class="fa fa-caret-down"></span></a>
 							<ul class="dropdown-menu">
 								<li><a href="support.html">Support</a></li>
@@ -73,7 +73,7 @@
             <div class="col-md-2 col-sm-6">
                 <div class="panel panel-default text-center">
                     <div class="panel-heading">
-                        <img src="Images/Navision.png">
+                        <img src="<?php echo base_url();?>Images/Navision.png">
                     </div>
                     <div class="panel-body">
                         <h5>Microsoft Dynamics NAV</h5>
@@ -86,7 +86,7 @@
             <div class="col-md-2 col-sm-6">
                 <div class="panel panel-default text-center">
                     <div class="panel-heading">
-						<img src="Images/MicrosoftDynamixAX.png">                        				
+						<img src="<?php echo base_url();?>Images/MicrosoftDynamixAX.png">                        				
                     </div>
                     <div class="panel-body">
                         <h5>Microsoft Dynamics AX</h5>
@@ -98,7 +98,7 @@
 			<div class="col-md-2 col-sm-6"> 
                 <div class="panel panel-default text-center">
                     <div class="panel-heading">
-						<img src="Images/CMS.png">                        				
+						<img src="<?php echo base_url();?>Images/CMS.png">                        				
                     </div>
                     <div class="panel-body">
                         <h5>Content Management System</h5>
@@ -110,7 +110,7 @@
 			<div class="col-md-2 col-sm-6">
                 <div class="panel panel-default text-center">
                     <div class="panel-heading">
-                        <img src="Images/DMS.png">
+                        <img src="<?php echo base_url();?>Images/DMS.png">
                     </div>
                     <div class="panel-body">
                         <h5>Document Management Systems</h5>
@@ -122,7 +122,7 @@
             <div class="col-md-2 col-sm-6">
                 <div class="panel panel-default text-center">
                     <div class="panel-heading">
-                        <img src="Images/CRM.png">
+                        <img src="<?php echo base_url();?>Images/CRM.png">
                     </div>
                     <div class="panel-body">
                         <h5>Microsoft Dynamics CRM</h5>
@@ -134,7 +134,7 @@
 			<div class="col-md-2 col-sm-6">
                 <div class="panel panel-default text-center">
                     <div class="panel-heading">
-                        <img  style="margin-top:8px" src="Images/mobile.png">
+                        <img  style="margin-top:8px" src="<?php echo base_url();?>Images/mobile.png">
                     </div>
                     <div class="panel-body">
                         <h5>Mobile Solutions</h5>
