@@ -10,7 +10,8 @@
     <link href="<?php echo base_url();?>css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo base_url();?>css/font-awesome.min.css" rel="stylesheet">  
     <link href="<?php echo base_url();?>css/main.css" rel="stylesheet"> 
-	<link href="<?php echo base_url();?>css/half-slider.css" rel="stylesheet">        
+	<link href="<?php echo base_url();?>css/half-slider.css" rel="stylesheet">     
+	<link href="<?php echo base_url();?>css/animate.min.css" rel="stylesheet">   
     <link rel="shortcut icon" href="<?php echo base_url();?>Images/TitleIconLogo.png">
 
 
@@ -79,7 +80,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-12 col-xs-10">
+		<div class="col-md-12 col-xs-10 animated fadeInRight">
 			<p>
 				<img src="<?php echo base_url();?>Images/logo-support.png">                   
 				<img style="margin-left:30px" src="<?php echo base_url();?>Images/dynamicsGO-support.png">
@@ -90,11 +91,9 @@
 				<img style="margin-left:30px" src="<?php echo base_url();?>Images/support.png">
 			</p>
 		</div>
-		<div class="col-md-1">
-		</div>
 	</div>
 	<hr>
-	<div class="row">
+	<div class="row animated fadeInUp">
 		<div class="col-md-4">
 			<p><img src="<?php echo base_url();?>Images/partnerSupport.png"></p>
 			<h5>Experienced, Expert, Trusted Partner</h5>
@@ -107,8 +106,8 @@
 									<span class="sr-only">100% Complete</span>
 								  </div>
 								</div>
-								</div>
 				</div>
+				
 				<div class="alert alert-danger">
 								<div class="skill-name">PERFORMANCE DELIVERED 100%</div> 
 								<div class="progress progress-striped progress-adjust">

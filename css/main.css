@@ -10,7 +10,7 @@ Author URL: http://shapebootstrap.net
 **************************/
 body {
   padding-top: 100px;
-  background: #fff;
+  background-image:url(../Images/background.png);
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   color: #64686d;
@@ -183,6 +183,8 @@ min-height: 10px;
     background: transparent;
     padding-top: 37px;
     border-top: 3px solid #45aed6;
+	background-image:url(../Images/background.png);
+	color:#0099FF;
   }
   #main-menu.navbar-default .dropdown-menu {
     padding: 0 20px;
@@ -1052,3 +1054,6 @@ color:#2dcc70;
 .progress .progress-bar {
     animation: 2s linear 0s normal none infinite running progress-bar-stripes;
 }
+
+
+

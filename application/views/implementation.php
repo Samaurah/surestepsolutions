@@ -10,7 +10,8 @@
     <link href="<?php echo base_url();?>css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo base_url();?>css/font-awesome.min.css" rel="stylesheet">  
     <link href="<?php echo base_url();?>css/main.css" rel="stylesheet"> 
-	<link href="<?php echo base_url();?>css/half-slider.css" rel="stylesheet">        
+	<link href="<?php echo base_url();?>css/half-slider.css" rel="stylesheet"> 
+	<link href="<?php echo base_url();?>css/animate.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="<?php echo base_url();?>Images/TitleIconLogo.png">
 
 
@@ -21,6 +22,7 @@
           height: auto;
           max-width: 100%;
    }
+   
 </style>
 </head>
 
@@ -75,22 +77,19 @@
             </div>
         </nav>
     </header>
-	
-	<div class="row">
-	<div id="wrapper">
-				<div class="col-md-1">
-				</div>				
-				<div id="doc-wrap" class="col-md-7">
+<div class="container">	
+	<div class="row">			
+				<div class="col-md-12">
 					<section class="doc-section">
-						<h1 id="implementation">Implementation</h1>
+						<h1>Implementation</h1>
 						<div class="row">
-							<div class="col-md-6">
+							<div class="col-md-4">
 								<p>Our services are designed to keep your system running at its peak. Surestep’s staff of certified and experienced professionals has the experience and skill level needed to help you resolve your business challenges before they impact your business. Partner with Surestep System to implement your Microsoft Dynamics solution and benefit from highly qualified consultants with in-depth Microsoft Dynamics experience and industry knowledge. Our skilled Microsoft Dynamics implementation consultants focus on operational excellence to help you streamline processes, eliminate inefficiencies, increase productivity and improve your decision-making. More than just an implementation from programme management and business process improvement, to change management, our clients leverage our business consulting expertise to capitalise on their entire value chain.</p>								
 								<p align="left">
-									<img src="<?php echo base_url();?>Images/Untitled-1.png">	   						
+									<img id="method" class="animated zoomIn" src="<?php echo base_url();?>Images/Untitled-1.png">	   						
 								</p>
 							</div>
-							<div class="col-md-5">
+							<div class="col-md-4 animated fadeInRight">
 								<div class="media service-box wow fadeInRight">
 									<div class="pull-left">
 										<i class="fa fa-line-chart"></i>
@@ -131,9 +130,16 @@
 									</div>
                    				</div>
 							</div>
-						</div>
-					</section>
-
+							<div class="col-md-4" style="margin-top:25px">					
+								<p><img id="method" class="animated zoomIn" src="<?php echo base_url();?>Images/Implementation1.png"></p>								
+							</div>							
+					</div>
+				</section>
+				<hr style="color:#000000">
+			</div>
+</div>
+<div class="row">
+	<div class="col-md-8">
 					<section class="doc-section">
 						<h2 id="started">Implementation Methodology</h2>
 						<p>The Microsoft Dynamics Sure Step Implementation methodology describes consulting and process best practices for partners working with Microsoft Dynamics NAV.</p>
@@ -162,33 +168,11 @@
 						<h3>Upgrade Phase</h3>
 						<p>The purpose of the Upgrade phase is to perform a basic upgrade of a customer’s existing business software implementation to a new version of the software solution. The major deliverable for the Upgrade phase is an upgraded, better functioning production environment.</p>
 				</div>
-				<div class="col-md-3" style="margin-top:25px">					
-					                					
-					<p style="margin-top:39px">
-						SURESTEP SYSTEMS & SOLUTIONS LTD<br>Vision plaza 3rd Floor, Suite 2A Mombasa Road<br>
-					</p>
-					<p><i class="fa fa-phone"></i> 
-						<abbr title="Phone">P</abbr>: (+254) 724 671307
-					</p>
-					<p><i class="fa fa-envelope-o"></i> 
-						<abbr title="Email">E</abbr>: <a href="mailto:name@example.com">info@surestep.co.ke</a>
-					</p>
-					<p><i class="fa fa-clock-o"></i> 
-						<abbr title="Hours">H</abbr>: Monday - Friday: 8:00 AM to 5:00 PM
-					</p>
-					<ul class="list-unstyled list-inline list-social-icons">
-						<li>
-							<a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
-						</li>
-						<li>
-							<a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
-						</li>
-					</ul>
-					<p><img src="<?php echo base_url();?>Images/infographics.png"></p>
-				</div>
+				
 	      </div>
 		</div>
-		
+	</div>
+</div>		
 
 <div id="bottom" class="main" style="margin-top:30px">
 <div class="container">
@@ -269,15 +253,18 @@
 <footer id="footer">
 <div class="container">
 		<div id="rowfooter" class="row">
-				<div class="col-md-9 col-xs-10">
+				<div class="col-md-8 col-xs-10">
 					<p align="left" style="margin-left:10px">
 					&copy; Copyright 2015 SureStep Systems &amp; Solutions. All rights reserved.
 					</p>
 				</div>	
-				<div class="col-md-2 pull-right">	
+				<div class="col-md-3 pull-right">	
 					<ul class="list-unstyled">
 						<li><a id="list" href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
 						<li><a id="list" href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+						<li><a id="list" href="#"><i class="fa fa-google-plus fa-2x"></i></a></li>
+						<li><a id="list" href="#"><i class="fa fa-skype fa-2x"></i></a></li>
+						<li><a id="list" href="#"><i class="fa fa-linkedin fa-2x"></i></a></li>
 						<li><a id="list" href="#"><i class="fa fa-chevron-circle-up fa-2x"></i></li>
 					</ul>					
 				</div>		
