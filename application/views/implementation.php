@@ -87,7 +87,7 @@
 							<div class="col-md-6">
 								<p>Our services are designed to keep your system running at its peak. Surestep’s staff of certified and experienced professionals has the experience and skill level needed to help you resolve your business challenges before they impact your business. Partner with Surestep System to implement your Microsoft Dynamics solution and benefit from highly qualified consultants with in-depth Microsoft Dynamics experience and industry knowledge. Our skilled Microsoft Dynamics implementation consultants focus on operational excellence to help you streamline processes, eliminate inefficiencies, increase productivity and improve your decision-making. More than just an implementation from programme management and business process improvement, to change management, our clients leverage our business consulting expertise to capitalise on their entire value chain.</p>								
 								<p align="left">
-									<img src="<?php echo base_url();?>Images/Untitled-1.png">							
+									<img src="<?php echo base_url();?>Images/Untitled-1.png">	   						
 								</p>
 							</div>
 							<div class="col-md-5">
