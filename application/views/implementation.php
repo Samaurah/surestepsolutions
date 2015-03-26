@@ -38,17 +38,17 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="<?php echo base_url();?>Images/NavBar Logo.png" alt="logo" height="50"></a>
+                    <a class="navbar-brand" href="<?php echo base_url();?>"><img src="<?php echo base_url();?>Images/NavBar Logo.png" alt="logo" height="50"></a>
                 </div>
 				<div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li><a href="index.html"><i class="fa fa-home" style="margin-left:20px"></i>       Home</a></li>
+                        <li><a href="<?php echo base_url();?>"><i class="fa fa-home" style="margin-left:20px"></i>       Home</a></li>
                         <li class="active"><a href="#features" data-toggle="dropdown"><i class="fa fa-cogs"></i>       Services<span style="margin-left:10px" class="fa fa-caret-down"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="<?php echo base_url();?>support.html">Support</a></li>
-    							<li><a href="<?php echo base_url();?>Implementation.html">Implementation</a></li>
-    							<li><a href="<?php echo base_url();?>Consultation.html">Consultation</a></li>								
-								<li><a href="<?php echo base_url();?>Products.html">Training</a></li>
+								<li><a href="<?php echo base_url();?>index.php/support.php">Support</a></li>
+    							<li><a href="<?php echo base_url();?>index.php/implementation.php">Implementation</a></li>
+    							<li><a href="<?php echo base_url();?>index.php/consultation.php">Consultation</a></li>								
+								<li><a href="<?php echo base_url();?>index.php/products.php">Training</a></li>
 							</ul>
 						</li>
 						 <li class="dropdown"><a href="#features" data-toggle="dropdown"><i class="fa fa-wrench"></i>       Solutions<span style="margin-left:10px" class="fa fa-caret-down"></span></a> 
