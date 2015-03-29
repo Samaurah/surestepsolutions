@@ -33,13 +33,13 @@
                 </div>
 				<div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="<?php echo base_url();?>index.html"><i class="fa fa-home" style="margin-left:20px"></i>       Home</a></li>
+                        <li><a href="<?php echo base_url();?>"><i class="fa fa-home" style="margin-left:20px"></i> Home</a></li>
                         <li><a href="#features" data-toggle="dropdown"><i class="fa fa-cogs"></i>       Services<span style="margin-left:10px" class="fa fa-caret-down"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="<?php echo base_url();?>support.php">Support</a></li>
-    							<li><a href="<?php echo base_url();?>Implementation.html">Implementation</a></li>
-    							<li><a href="<?php echo base_url();?>Consultation.html">Consultation</a></li>								
-								<li><a href="<?php echo base_url();?>Products.html">Training</a></li>
+								<li><a href="<?php echo base_url();?>index.php/support">Support</a></li>
+    							<li><a href="<?php echo base_url();?>index.php/implementation">Implementation</a></li>
+    							<li><a href="<?php echo base_url();?>index.php/consultation">Consultation</a></li>								
+								<li><a href="<?php echo base_url();?>index.php/products">Training</a></li>
 							</ul>
 						</li>
 						 <li class="dropdown"><a href="#features" data-toggle="dropdown"><i class="fa fa-wrench"></i>       Solutions<span style="margin-left:10px" class="fa fa-caret-down"></span></a> 
@@ -107,7 +107,7 @@
 								  </div>
 								</div>
 				</div>
-				
+				</div>
 				<div class="alert alert-danger">
 								<div class="skill-name">PERFORMANCE DELIVERED 100%</div> 
 								<div class="progress progress-striped progress-adjust">
@@ -364,10 +364,13 @@
 					&copy; Copyright 2015 SureStep Systems &amp; Solutions. All rights reserved.
 					</p>
 				</div>	
-				<div class="col-md-2 pull-right">	
+				<div class="col-md-3 pull-right">	
 					<ul class="list-unstyled">
 						<li><a id="list" href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
 						<li><a id="list" href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+						<li><a id="list" href="#"><i class="fa fa-google-plus fa-2x"></i></a></li>
+						<li><a id="list" href="#"><i class="fa fa-skype fa-2x"></i></a></li>
+						<li><a id="list" href="#"><i class="fa fa-linkedin fa-2x"></i></a></li>
 						<li><a id="list" href="#"><i class="fa fa-chevron-circle-up fa-2x"></i></li>
 					</ul>					
 				</div>		

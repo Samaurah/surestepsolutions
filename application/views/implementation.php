@@ -9,7 +9,7 @@
 	
     <link href="<?php echo base_url();?>css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo base_url();?>css/font-awesome.min.css" rel="stylesheet">  
-    <link href="<?php echo base_url();?>css/main.css" rel="stylesheet"> 
+    <link href="<?php echo base_url();?>css/main.css" rel="stylesheet">
 	<link href="<?php echo base_url();?>css/half-slider.css" rel="stylesheet"> 
 	<link href="<?php echo base_url();?>css/animate.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="<?php echo base_url();?>Images/TitleIconLogo.png">
@@ -28,116 +28,118 @@
 
 
 <body>
-	<header id="header">
-        <nav id="main-menu" class="navbar navbar-default navbar-fixed-top" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img src="<?php echo base_url();?>Images/NavBar Logo.png" alt="logo" height="50"></a>
-                </div>
-				<div class="collapse navbar-collapse navbar-right">
-                    <ul class="nav navbar-nav">
-                        <li><a href="index.html"><i class="fa fa-home" style="margin-left:20px"></i>       Home</a></li>
-                        <li class="active"><a href="#features" data-toggle="dropdown"><i class="fa fa-cogs"></i>       Services<span style="margin-left:10px" class="fa fa-caret-down"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="<?php echo base_url();?>support.html">Support</a></li>
-    							<li><a href="<?php echo base_url();?>Implementation.html">Implementation</a></li>
-    							<li><a href="<?php echo base_url();?>Consultation.html">Consultation</a></li>								
-								<li><a href="<?php echo base_url();?>Products.html">Training</a></li>
-							</ul>
-						</li>
-						 <li class="dropdown"><a href="#features" data-toggle="dropdown"><i class="fa fa-wrench"></i>       Solutions<span style="margin-left:10px" class="fa fa-caret-down"></span></a> 
-							<ul class="dropdown-menu">									
-											<li><a href="<?php echo base_url();?>Products.html">Products</a></li>
-											<li><a href="<?php echo base_url();?>Products.html">Enterprise Portals</a></li>											
-											<li><a href="<?php echo base_url();?>Products.html">ERP Management Systems</a></li>
-											<li><a href="<?php echo base_url();?>Products.html">Sure Core Banking Solutions</a></li>
-											<li><a href="<?php echo base_url();?>Products.html">Mobile Solutions (S-Mobile Solutions)</a></li>
-							</ul>
-						</li>                        
-                        <li><a href="#portfolio"><i class="fa fa-comments"></i>       FAQs</a></li>
-                        <li><a href="#meet-team"><i class="fa fa-globe"></i>       About Us</a></li>
-                        <li><a href="contacts.html"><i class="fa fa-phone"></i>       Contact Us</a></li>			
-                        <li ><a href="#blog"><i class="fa fa-users"></i>       Team</a></li> 
-                        <li><a href="#features" data-toggle="dropdown"><i class="fa fa-database"></i>       Microsoft Dynamics<span style="margin-left:10px" class="fa fa-caret-down"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="#">Microsoft Dynamics NAV</a></li>
-								<li><a href="#">Microsoft Dynamics CRM</a></li>
-    							<li><a href="#">Microsoft Dynamics AX</a></li>
-    						</ul>
-						</li> 
-						                     
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-<div class="container">	
-	<div class="row">			
-				<div class="col-md-12">
-					<section class="doc-section">
-						<h1>Implementation</h1>
-						<div class="row">
-							<div class="col-md-4">
-								<p>Our services are designed to keep your system running at its peak. Surestep’s staff of certified and experienced professionals has the experience and skill level needed to help you resolve your business challenges before they impact your business. Partner with Surestep System to implement your Microsoft Dynamics solution and benefit from highly qualified consultants with in-depth Microsoft Dynamics experience and industry knowledge. Our skilled Microsoft Dynamics implementation consultants focus on operational excellence to help you streamline processes, eliminate inefficiencies, increase productivity and improve your decision-making. More than just an implementation from programme management and business process improvement, to change management, our clients leverage our business consulting expertise to capitalise on their entire value chain.</p>								
-								<p align="left">
-									<img id="method" class="animated zoomIn" src="<?php echo base_url();?>Images/Untitled-1.png">	   						
-								</p>
-							</div>
-							<div class="col-md-4 animated fadeInRight">
-								<div class="media service-box wow fadeInRight">
-									<div class="pull-left">
-										<i class="fa fa-line-chart"></i>
-									</div>
-									<div class="media-body">
-										<h4 class="media-heading">UX design</h4>
-										<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-									</div>
-                    			</div>
-
-                    			<div class="media service-box wow fadeInRight">
-									<div class="pull-left">
-										<i class="fa fa-cubes"></i>
-									</div>    
-									<div class="media-body">
-										<h4 class="media-heading">UI design</h4>
-										<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-									</div>
-                   				 </div>
-
-                   				 <div class="media service-box wow fadeInRight">
-									<div class="pull-left">
-										<i class="fa fa-pie-chart"></i>
-									</div>
-									<div class="media-body">
-										<h4 class="media-heading">SEO Services</h4>
-										<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-									</div>
-                    			</div>
-
-                    			<div class="media service-box wow fadeInRight">
-									<div class="pull-left">
-										<i class="fa fa-pie-chart"></i>
-									</div>
-									<div class="media-body">
-										<h4 class="media-heading">SEO Services</h4>
-										<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-									</div>
-                   				</div>
-							</div>
-							<div class="col-md-4" style="margin-top:25px">					
-								<p><img id="method" class="animated zoomIn" src="<?php echo base_url();?>Images/Implementation1.png"></p>								
-							</div>							
-					</div>
-				</section>
-				<hr style="color:#000000">
+<header id="header">
+	<nav id="main-menu" class="navbar navbar-default navbar-fixed-top" role="banner">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="<?php echo base_url();?>"><img src="<?php echo base_url();?>Images/NavBar Logo.png" alt="logo" height="50"></a>
 			</div>
+			<div class="collapse navbar-collapse navbar-right">
+				<ul class="nav navbar-nav">
+					<li><a href="<?php echo base_url();?>"><i class="fa fa-home" style="margin-left:20px"></i> Home</a></li>
+					<li class="active"><a href="#features" data-toggle="dropdown"><i class="fa fa-cogs"></i>       Services<span style="margin-left:10px" class="fa fa-caret-down"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="<?php echo base_url();?>index.php/support">Support</a></li>
+							<li><a href="<?php echo base_url();?>index.php/implementation">Implementation</a></li>
+							<li><a href="<?php echo base_url();?>index.php/consultation">Consultation</a></li>								
+							<li><a href="<?php echo base_url();?>index.php/products">Training</a></li>
+						</ul>
+					</li>
+					 <li class="dropdown"><a href="#features" data-toggle="dropdown"><i class="fa fa-wrench"></i>       Solutions<span style="margin-left:10px" class="fa fa-caret-down"></span></a> 
+						<ul class="dropdown-menu">									
+										<li><a href="<?php echo base_url();?>index.php/products">Products</a></li>
+										<li><a href="<?php echo base_url();?>Products.html">Enterprise Portals</a></li>											
+										<li><a href="<?php echo base_url();?>Products.html">ERP Management Systems</a></li>
+										<li><a href="<?php echo base_url();?>Products.html">Sure Core Banking Solutions</a></li>
+										<li><a href="<?php echo base_url();?>Products.html">Mobile Solutions (S-Mobile Solutions)</a></li>
+						</ul>
+					</li>                        
+					<li><a href="#portfolio"><i class="fa fa-comments"></i>       FAQs</a></li>
+					<li><a href="#meet-team"><i class="fa fa-globe"></i>       About Us</a></li>
+					<li><a href="contacts.html"><i class="fa fa-phone"></i>       Contact Us</a></li>			
+					<li ><a href="#blog"><i class="fa fa-users"></i>       Team</a></li> 
+					<li><a href="#features" data-toggle="dropdown"><i class="fa fa-database"></i>       Microsoft Dynamics<span style="margin-left:10px" class="fa fa-caret-down"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Microsoft Dynamics NAV</a></li>
+							<li><a href="#">Microsoft Dynamics CRM</a></li>
+							<li><a href="#">Microsoft Dynamics AX</a></li>
+						</ul>
+					</li> 
+										 
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>
+
+<div class="container">	
+<div class="row">			
+	<div class="col-md-12">
+		<section class="doc-section">
+			<h1>Implementation</h1>
+			<div class="row">
+				<div class="col-md-4">
+					<p>Our services are designed to keep your system running at its peak. Surestep’s staff of certified and experienced professionals has the experience and skill level needed to help you resolve your business challenges before they impact your business. Partner with Surestep System to implement your Microsoft Dynamics solution and benefit from highly qualified consultants with in-depth Microsoft Dynamics experience and industry knowledge. Our skilled Microsoft Dynamics implementation consultants focus on operational excellence to help you streamline processes, eliminate inefficiencies, increase productivity and improve your decision-making. More than just an implementation from programme management and business process improvement, to change management, our clients leverage our business consulting expertise to capitalise on their entire value chain.</p>								
+					<p align="left">
+						<img id="method" class="animated zoomIn" src="<?php echo base_url();?>Images/Untitled-1.png">	   						
+					</p>
+				</div>
+				<div class="col-md-4 animated fadeInRight">
+					<div class="media service-box wow fadeInRight">
+						<div class="pull-left">
+							<i class="fa fa-line-chart"></i>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">UX design</h4>
+							<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
+						</div>
+					</div>
+
+					<div class="media service-box wow fadeInRight">
+						<div class="pull-left">
+							<i class="fa fa-cubes"></i>
+						</div>    
+						<div class="media-body">
+							<h4 class="media-heading">UI design</h4>
+							<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
+						</div>
+					 </div>
+
+					 <div class="media service-box wow fadeInRight">
+						<div class="pull-left">
+							<i class="fa fa-pie-chart"></i>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">SEO Services</h4>
+							<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
+						</div>
+					</div>
+
+					<div class="media service-box wow fadeInRight">
+						<div class="pull-left">
+							<i class="fa fa-pie-chart"></i>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">SEO Services</h4>
+							<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4" style="margin-top:25px">					
+					<p><img id="method" class="animated zoomIn" src="<?php echo base_url();?>Images/Implementation1.png"></p>								
+				</div>							
+		</div>
+	</section>
+	<hr style="color:#000000">
 </div>
+</div>
+
 <div class="row">
 	<div class="col-md-8">
 					<section class="doc-section">
@@ -265,7 +267,7 @@
 						<li><a id="list" href="#"><i class="fa fa-google-plus fa-2x"></i></a></li>
 						<li><a id="list" href="#"><i class="fa fa-skype fa-2x"></i></a></li>
 						<li><a id="list" href="#"><i class="fa fa-linkedin fa-2x"></i></a></li>
-						<li><a id="list" href="#"><i class="fa fa-chevron-circle-up fa-2x"></i></li>
+						<li><a id="list" href="#"><i class="fa fa-chevron-circle-up fa-2x"></i></a></li>
 					</ul>					
 				</div>		
 		</div>

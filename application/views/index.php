@@ -27,22 +27,22 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="<?php echo base_url();?>Images/NavBar Logo.png" alt="logo" height="50"></a>
+                    <a class="navbar-brand" href="<?php echo base_url();?>"><img src="<?php echo base_url();?>Images/NavBar Logo.png" alt="logo" height="50"></a>
                 </div>
 				<div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="<?php echo base_url();?>index.html"><i class="fa fa-home" style="margin-left:20px"></i>       Home</a></li>
-                        <li><a href="<?php echo base_url();?>#features" data-toggle="dropdown"><i class="fa fa-cogs"></i>       Services<span style="margin-left:10px" class="fa fa-caret-down"></span></a>
+                        <li class="active"><a href="<?php echo base_url();?>"><i class="fa fa-home" style="margin-left:20px"></i> Home</a></li>
+                        <li><a href="#features" data-toggle="dropdown"><i class="fa fa-cogs"></i>       Services<span style="margin-left:10px" class="fa fa-caret-down"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="<?php echo base_url();?>support.html">Support</a></li>
-    							<li><a href="<?php echo base_url();?>Implementation.html">Implementation</a></li>
-    							<li><a href="<?php echo base_url();?>Consultation.html">Consultation</a></li>								
-								<li><a href="<?php echo base_url();?>Products.html">Training</a></li>
+								<li><a href="<?php echo base_url();?>index.php/support">Support</a></li>
+    							<li><a href="<?php echo base_url();?>index.php/implementation">Implementation</a></li>
+    							<li><a href="<?php echo base_url();?>index.php/consultation">Consultation</a></li>								
+								<li><a href="<?php echo base_url();?>index.php/products">Training</a></li>
 							</ul>
 						</li>
 						 <li class="dropdown"><a href="<?php echo base_url();?>#features" data-toggle="dropdown"><i class="fa fa-wrench"></i>       Solutions<span style="margin-left:10px" class="fa fa-caret-down"></span></a> 
 							<ul class="dropdown-menu">									
-											<li><a href="<?php echo base_url();?>Products.html">Products</a></li>
+											<li><a href="<?php echo base_url();?>index.php/products">Products</a></li>
 											<li><a href="<?php echo base_url();?>Products.html">Enterprise Portals</a></li>											
 											<li><a href="<?php echo base_url();?>Products.html">ERP Management Systems</a></li>
 											<li><a href="<?php echo base_url();?>Products.html">Sure Core Banking Solutions</a></li>
@@ -67,19 +67,18 @@
         </nav>
     </header>
 
-    <header id="myCarousel" class="carousel slide carousel-fade">
+    <header id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="<?php echo base_url();?>#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="<?php echo base_url();?>#carousel" data-slide-to="1"></li>
+            <li data-target="<?php echo base_url();?>#carousel" data-slide-to="2"></li>
         </ol>
 
         <div class="carousel-inner">
             <div class="item active">
                 <div class="fill" style="background-image:url('Images/tab-laptop-1920x1080.jpg');"></div>
-                <div class="carousel-caption">
-						
+                <div class="carousel-caption">						
                     <h2></h2>
                 </div>
             </div>
@@ -98,16 +97,16 @@
         </div>
 
         <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <a class="carousel-control left" href="<?php echo base_url();?>#carousel" data-slide="prev">
             <span class="icon-prev"></span>
         </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <a class="carousel-control right" href="<?php echo base_url();?>#carousel" data-slide="next">
             <span class="icon-next"></span>
         </a>
 
     </header>
 
-<div class="container-fluid" style="margin-top:20px">
+<div class="container animated fadeInRight" id="content" style="margin-top:20px">
         <div class="row">
 			<div class="col-md-4">
 			<h3 align="center">Microsoft Dynamics NAV</h3>
@@ -213,10 +212,13 @@
 					&copy; Copyright 2015 SureStep Systems &amp; Solutions. All rights reserved.
 					</p>
 				</div>	
-				<div class="col-md-2 pull-right">	
+				<div class="col-md-3 pull-right">	
 					<ul class="list-unstyled">
 						<li><a id="list" href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
 						<li><a id="list" href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+						<li><a id="list" href="#"><i class="fa fa-google-plus fa-2x"></i></a></li>
+						<li><a id="list" href="#"><i class="fa fa-skype fa-2x"></i></a></li>
+						<li><a id="list" href="#"><i class="fa fa-linkedin fa-2x"></i></a></li>
 						<li><a id="list" href="#"><i class="fa fa-chevron-circle-up fa-2x"></i></li>
 					</ul>					
 				</div>		
@@ -228,6 +230,7 @@
 
 <script src="<?php echo base_url();?>http://code.jquery.com/jquery-1.11.0.min.js"></script> 
 <script src="<?php echo base_url();?>js/bootstrap.min.js"></script>
+<script src="<?php echo base_url();?>js/jquery-1.10.2.js"></script>
 <script src="<?php echo base_url();?>js/typed.js"></script>
 <script>
 $('.carousel').carousel({
