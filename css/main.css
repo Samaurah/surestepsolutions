@@ -1,9 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,700,100italic,300italic,400italic,700italic);
 /*
-Template Name: Multi
-Version: 1.0
-Author: ShapeBootstrap
-Author URL: http://shapebootstrap.net
+Author: Yommie Samora
+Author URL: http://surestep.co.ke
 */
 /*************************
 *******Typography******
@@ -11,7 +9,8 @@ Author URL: http://shapebootstrap.net
 body {
   padding-top: 100px;
   background-image:url(../Images/background.png);
-  font-family: 'Roboto', sans-serif;
+  font-family: Calibri;
+  font-size: 15px;
   font-weight: 400;
   color: #64686d;
   line-height: 26px;
@@ -23,7 +22,7 @@ h4,
 h5,
 h6 {
   font-weight: 600;
-  font-family: 'Roboto', sans-serif;
+  font-family: Calibri;
 
 }
 a {
@@ -40,7 +39,7 @@ a:focus {
 }
 hr {
   border-top: 1px solid #e5e5e5;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #e5e5e5;
 }
 .gradiant {
   background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
@@ -155,7 +154,7 @@ ul.nostyle i {
 *******Header******
 **************************/
 .navbar.navbar-default {
-min-height: 10px;
+  min-height: 10px;
   border: 0;
   border-radius: 0;
   margin-bottom: 0;
@@ -172,7 +171,6 @@ min-height: 10px;
     background: rgba(255, 255, 255, 0.9);
     -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
-	background-image:url(../Images/background.png);
   }
   #main-menu.navbar-default .navbar-nav > li > a {
     padding-top: 40px;
@@ -181,11 +179,11 @@ min-height: 10px;
   #main-menu.navbar-default .navbar-nav > li.active > a,
   #main-menu.navbar-default .navbar-nav > li.open > a,
   #main-menu.navbar-default .navbar-nav > li:hover > a {
-    background: transparent;
-    padding-top: 37px;
-    border-top: 3px solid #2dcc70;
-	background-color:#999999;
-	color:#2dcc70;
+      background: transparent;
+      padding-top: 37px;
+     border-top: 5px solid #2dcc70;
+     background-color: #333;
+	   color:#2dcc70;
 }
   #main-menu.navbar-default .dropdown-menu {
     padding: 0 20px;
@@ -657,20 +655,21 @@ min-height: 10px;
   border-radius: 0 3px 0 0;
 }
 .tab-content {
-  border: 1px solid #eee;
   border-top: 0;
-  padding: 20px 20px 10px;
   border-radius: 0 0 3px 3px;
 }
 .panel-default {
   border-color: #eee;
 }
 .panel-default > .panel-heading {
-  background-color: #fff;
   border-color: #eee;
+  padding: 0px;
+  outline: medium none;
+  border: medium none;
+  border-radius: 0px;
+  width: 100%;
 }
 .panel-default > .panel-heading .panel-title {
-  font-size: 14px;
   font-weight: normal;
 }
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
@@ -1058,4 +1057,165 @@ color:#2dcc70;
 
 #content {
 background-color:#FFFFFF;
+color: #64686d;
+}
+
+
+.panel-heading a {
+    font-weight: 400;
+    padding: 15px 15px 15px 15px; 
+    display: inline-block;
+    width: 100%;
+    background-color: #55ACEE;
+    color: #333;
+    text-decoration: none;    
+    position: relative;
+}
+.panel-heading a.collapsed {
+    color: #FFF;
+    background-color: #333;
+}
+.panel-title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    color: inherit;
+}
+#indent {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#indent {  
+  font-size: 24px;
+}
+#panel .panel-heading a {
+    padding: 10px 10px 10px 10px;    
+    font-weight: 400;
+    display: inline-block;
+    width: 100%;
+    background-color: #333;
+    color: #FFF;
+    text-decoration: none;    
+    position: relative;
+}
+#panel .panel-heading a.collapsed{
+    color: #64686d;
+    background-color: #FFF;
+}
+.tab-wrap {
+    border: 1px solid #E6E6E6;
+    margin-bottom: 20px;
+}
+.media, .media-body {
+    overflow: hidden;
+}
+.nav {
+    padding-left: 0px;
+    margin-bottom: 0px;
+    list-style: outside none none;
+}
+.nav-tabs > li > a {
+    background: none repeat scroll 0% 0%;
+    color: #000;
+    border-radius: 0px;
+    border: 0px none;
+    line-height: 24px;
+    margin-right: 0px;
+    padding: 13px 15px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  border: 0px none;
+  color: #FFF;
+  background: none repeat scroll 0% 0% #1F1F20;
+  position: relative;
+}
+
+#home div:hover {
+  background-color:#FFFFFF;
+  font-weight: 500;
+}
+
+#menu-toggle {
+  position: fixed;
+  color: #FFF;
+  background-color: #2dcc70;
+  right: 10px;
+  z-index: 999;
+}
+
+#sidebar-wrapper .dropdown-menu {
+    position: relative;
+    background-color: transparent;
+    color: #333;
+    font-size: 14px;
+    padding: 0px;
+    font-family: Calibri;
+}
+
+#myTab {
+  font-size: 13px;
+}
+
+#products hr {
+  border-bottom: 1px solid #333;
+}
+
+#content .nav {
+  padding-left: 0px;
+  margin-bottom: 0px;
+  list-style: outside none none;
+  background-image:url(../Images/background.png);
+}
+
+#header .navbar, .dropdown-menu {
+  font-family: Calibri;
+  font-size: 15px;
+}
+#header .dropdown-menu {
+  font-family: Calibri;
+  font-size: 15px;
+}
+
+#footer .p {
+  font-family: Calibri;
+  font-size: 15px;  
+}
+
+#head-title {
+  font-family: Calibri;
+  color: #333; 
+}
+#contact  { 
+background-color:#FFFFFF;
+color: #64686d;
+}
+#contact .list-icons, .social-links {
+  list-style: outside none none;
+  padding: 0px;
+}
+#contact .a {
+  color: #333;
+}
+.has-feedback label.sr-only ~ .form-control-feedback {
+    top: 15px;
+}
+@media screen and (max-width: 860px) {
+   .carousel {
+    height: 50%;
+    padding-left: 0px;    
+    padding-right: 0px;
+  }
+}
+#list .fa:hover  {
+  transform: rotate(360deg);
+  -ms-transform:rotate(360deg);
+  -webkit-transform:rotate(360deg); 
+  transition-duration:2s;
+  transition-property: all;
+  transition-timing-function: ease;
+  opacity:1;
+  transition: all 0.9s ease 0s;
+  -moz-transition: all 0.9s ease 0s;
+  -webkit-transition: all 0.9s ease 0s;
+  -o-transition: all 0.9s ease 0s;
 }
